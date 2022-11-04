@@ -1,1 +1,7 @@
-console.log("Cái nỳ chỉ là demo thôi ^^");
+var promise = new Promise(function(resolve, reject){
+    resolve( () =>{
+        setTimeout(() => {
+            console.log('No problem!');
+        }, 1000);
+    });
+})
